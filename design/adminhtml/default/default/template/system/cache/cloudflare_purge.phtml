@@ -1,0 +1,10 @@
+<table class="form-list">
+    <tr>
+        <td class="scope-label">
+            <button onclick="setLocation('<?php echo Mage::helper("cloudFlare_base")->getPurgeCacheUrl(); ?>')" type="button" class="scalable"><span><span><span><?php echo Mage::helper('cloudFlare_base')->__('Purge CloudFlare Cache') ?></span></span></span></button>
+        </td>
+        <td class="scope-label">
+            <?php echo Mage::helper('cloudFlare_base')->__('Purge CloudFlare Cache.')?>
+        </td>
+    </tr>
+</table>

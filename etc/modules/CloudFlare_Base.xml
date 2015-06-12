@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <CloudFlare_Base>
+            <active>true</active>
+            <codePool>local</codePool>
+        </CloudFlare_Base>
+    </modules>
+</config>

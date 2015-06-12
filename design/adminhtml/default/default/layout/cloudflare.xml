@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<layout>
+    <adminhtml_cache_index>
+        <reference name="cache.additional">
+            <block type="core/template" template="system/cache/cloudflare_purge.phtml" name="cloudflare.purge"></block>
+        </reference>
+    </adminhtml_cache_index>
+</layout>
+
